@@ -1,0 +1,24 @@
+{
+  "name": "remindmel8r",
+  "version": "1.0.0",
+  "description": "Reminder app that lets you drop pins on a map to create reminders that will pop up when you are near the pin.",
+  "main": "map.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahaymond-dev/remindmel8r.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahaymond-dev/remindmel8r/issues"
+  },
+  "homepage": "https://github.com/ahaymond-dev/remindmel8r#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
